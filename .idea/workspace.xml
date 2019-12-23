@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28178842-938e-46e5-ac1a-b886dcb785a7" name="Default Changelist" comment="" />
+    <list default="true" id="28178842-938e-46e5-ac1a-b886dcb785a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/CityTestingDec23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseApi/TestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseApi/TestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseApi/TestAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseApi/TestAPI.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,53 +66,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestAPI.test">
-    <configuration name="APITesting.GetWeatherDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CityTestingDec23.ChittagongWeather">
+    <configuration name="CityTestingDec23" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazanAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baseApi.*" />
+          <option name="PATTERN" value="APITesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="baseApi" />
-      <option name="MAIN_CLASS_NAME" value="baseApi.APITesting" />
-      <option name="METHOD_NAME" value="GetWeatherDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NipaTest.TexasWeather" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baseApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="baseApi" />
-      <option name="MAIN_CLASS_NAME" value="baseApi.NipaTest" />
-      <option name="METHOD_NAME" value="TexasWeather" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAPI" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baseApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="baseApi" />
-      <option name="MAIN_CLASS_NAME" value="baseApi.TestAPI" />
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.CityTestingDec23" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,16 +84,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAPI.RichardsonWeather" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CityTestingDec23.ChittagongWeather" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazanAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baseApi.*" />
+          <option name="PATTERN" value="APITesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="baseApi" />
-      <option name="MAIN_CLASS_NAME" value="baseApi.TestAPI" />
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.CityTestingDec23" />
+      <option name="METHOD_NAME" value="ChittagongWeather" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityTestingDec23.CityWeather" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.CityTestingDec23" />
+      <option name="METHOD_NAME" value="CityWeather" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityTestingDec23.DhakaWeather" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.CityTestingDec23" />
+      <option name="METHOD_NAME" value="DhakaWeather" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityTestingDec23.RichardsonWeather" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITesting" />
+      <option name="MAIN_CLASS_NAME" value="APITesting.CityTestingDec23" />
       <option name="METHOD_NAME" value="RichardsonWeather" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -132,38 +156,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAPI.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baseApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="baseApi" />
-      <option name="MAIN_CLASS_NAME" value="baseApi.TestAPI" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.APITesting.GetWeatherDetails" />
-      <item itemvalue="TestNG.NipaTest.TexasWeather" />
-      <item itemvalue="TestNG.TestAPI" />
-      <item itemvalue="TestNG.TestAPI.RichardsonWeather" />
-      <item itemvalue="TestNG.TestAPI.test" />
+      <item itemvalue="TestNG.CityTestingDec23" />
+      <item itemvalue="TestNG.CityTestingDec23.CityWeather" />
+      <item itemvalue="TestNG.CityTestingDec23.DhakaWeather" />
+      <item itemvalue="TestNG.CityTestingDec23.RichardsonWeather" />
+      <item itemvalue="TestNG.CityTestingDec23.ChittagongWeather" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestAPI.test" />
-        <item itemvalue="TestNG.TestAPI.RichardsonWeather" />
-        <item itemvalue="TestNG.TestAPI" />
-        <item itemvalue="TestNG.APITesting.GetWeatherDetails" />
-        <item itemvalue="TestNG.NipaTest.TexasWeather" />
+        <item itemvalue="TestNG.CityTestingDec23.ChittagongWeather" />
+        <item itemvalue="TestNG.CityTestingDec23.RichardsonWeather" />
+        <item itemvalue="TestNG.CityTestingDec23.DhakaWeather" />
+        <item itemvalue="TestNG.CityTestingDec23" />
+        <item itemvalue="TestNG.CityTestingDec23.CityWeather" />
       </list>
     </recent_temporary>
   </component>

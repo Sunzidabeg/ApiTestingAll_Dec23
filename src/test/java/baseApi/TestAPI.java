@@ -21,9 +21,10 @@ public class TestAPI {
         //String s = b.getBody().asString();
 
      //Status line validation
-        int code=b.getStatusCode();
+        //int code=b.getStatusCode();
         String line=b.getStatusLine();
-     System.out.println("Status line is => " +line);
+        int code=b.getStatusCode();
+     System.out.println("Status line is => " +code);
 
 
 
@@ -49,6 +50,7 @@ public class TestAPI {
      String city = jsonPath.get("City");
      System.out.println("city   is => " +city);
      Assert.assertEquals(city,"plano");
+
      String Temperature = jsonPath.get("Temperature");
      System.out.println("Temperature  is => " +Temperature);
      String WindSpeed = jsonPath.get("WindSpeed");
