@@ -19,13 +19,22 @@ public class CityTestingDec23 {
         RequestSpecification req = RestAssured.given();
         Response res = req.request(Method.GET,"/Dhaka");
         //String body1 = res.getBody().asString();
+       //int code = res.getStatusCode();
+
+
+        //System.out.println("the status code is:" + code);
+
 
 
         JsonPath jsonPath = res.jsonPath();
 
         String City = jsonPath.get("City");
-        System.out.println("The name of city : "+ City);
+        System.out.println("the name of city: "+ City);
+        String Temperature = jsonPath.get("Temperature");
+        String humi = jsonPath.get("Humidity");
+        System.out.println("The city of : "+ humi);
         Assert.assertEquals(City,"Dhaka");
+
 
 
         }
@@ -57,6 +66,9 @@ public class CityTestingDec23 {
         Assert.assertEquals(City3,"Chittagong");
 
 
+        String head = resp.header("Content-Type");
+        Assert.assertEquals(head,"application/json");
+    System.out.println("contentType: "+ head);
    }
 
 

@@ -23,8 +23,8 @@ public class TestAPI {
      //Status line validation
         //int code=b.getStatusCode();
         String line=b.getStatusLine();
-        int code=b.getStatusCode();
-     System.out.println("Status line is => " +code);
+      int code = b.getStatusCode();
+       System.out.println("Status line is => " +code);
 
 
 
@@ -33,15 +33,18 @@ public class TestAPI {
 
 
      //header validate
-        String hd=b.header("Content-Type");
+     String hd=b.header("Content-Type");
      String hd2=b.header("Server");
      String hd3=b.header("Content-Encoding");
 
-     System.out.println("Content-Type  is => " +hd);
-     System.out.println("Content-Type  is => " +hd2);
-     System.out.println("Content-Type  is => " +hd3);
 
-     Assert.assertEquals(hd2,"nginx");
+
+    /* System.out.println("Content-Type  is => " +hd);
+     System.out.println("Content-Type  is => " +hd2);
+     System.out.println("Content-Type  is => " +hd3);*/
+
+
+
      //body validation
 
      JsonPath jsonPath = b.jsonPath();
